@@ -13,4 +13,9 @@ class pattern4
     System.out.println();
     }
     }
-}
+}// OUTPUT
+// 1 
+// 1 2 
+// 1 2 3 
+// 1 2 3 4 
+// 1 2 3 4 5
