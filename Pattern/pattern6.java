@@ -21,4 +21,9 @@ class pattern6
 
         }
     
-}
+}OUTPUT
+    *
+   **
+  ***
+ ****
+*****
