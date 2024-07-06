@@ -1,5 +1,5 @@
 package Pattern;
-class pattern8
+class pattern9
 {
     public static void main(String[] args) {
         int n =5;
@@ -7,7 +7,7 @@ class pattern8
         {
             for ( int space = 1; space <=n-i;space ++)
             {
-                System.out.print(" ");
+                System.out.print("  ");
 
             }
             for(int j = i ; j >= 1;j--)
@@ -15,11 +15,15 @@ class pattern8
                 System.out.print(j+" ");
 
             } 
+            for(int j = 2 ; j <= i;j++)
+            {
+                System.out.print(j+" ");
+
+            } 
             System.out.println();
-        }}} 
-        //     OUTPUT
-        //     1 
-        //    2 1 
-        //   3 2 1 
-        //  4 3 2 1 
-        // 5 4 3 2 1
+        }}}//         OUTPUT
+        //           1 
+        //         2 1 2
+        //       3 2 1 2 3
+        //     4 3 2 1 2 3 4
+        //   5 4 3 2 1 2 3 4 5 
