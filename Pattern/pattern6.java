@@ -19,11 +19,10 @@ class pattern6
         System.out.println();
     }
 
-        }
+        }}// OUTPUT
+        //     *
+        //    **
+        //   ***
+        //  ****
+        // *****
     
-}OUTPUT
-    *
-   **
-  ***
- ****
-*****
