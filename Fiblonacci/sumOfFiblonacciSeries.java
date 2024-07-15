@@ -1,6 +1,7 @@
+
 import java.util.Scanner;
 
-class FibonacciSeries {
+class sumOfFibonacciSeries {
     public static void main(String[] args) {
         // Create a Scanner object to read input from the user
         Scanner in = new Scanner(System.in);
