@@ -17,24 +17,17 @@ class PrintFibonacciSeries {
         
         // Initialize the counter starting from 2 since we already have the first two numbers
         int count = 2;
+        System.out.println("The fiblonacci series is ");
+        while (count <=n){
+            System.out.print( a+" ");
+            int temp = b ;
+            b=b+a;
+            a=temp;
+            count ++;
+
+        }
         
-        // Print the message indicating the start of the Fibonacci series
-        System.out.println("The Fibonacci series is ");
-        
-        // Loop to print Fibonacci numbers until the count reaches 'n'
-        while (count <= n) {
-            // Print the current value of 'a' which is a Fibonacci number
-            System.out.print(a + " ");
-            
-            // Store the current value of 'b' in a temporary variable 'temp'
-            int temp = b;
-            
-            // Calculate the next Fibonacci number
-            b = b + a;
-            
-            // Update 'a' to the old value of 'b'
-            a = temp;
-            
-            // Increment the counter
-            count++;
-        }}}
+
+
+    }
+}
