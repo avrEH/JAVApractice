@@ -1,24 +1,24 @@
-import java.util.Scanner; // Importing the Scanner class for taking input from the user
+import java.util.Scanner;
 
-class CountOccurrence {
+class countoccurance
+{
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in); // Creating a Scanner object for user input
-        int rem, count = 0; // Initializing remainder and count variables
+        Scanner sc = new Scanner(System.in);
+        int rem,count=0;
         System.out.println("Input a positive integer");
-        int n = sc.nextInt(); // Taking a positive integer input from the user
-        System.out.println("Enter the value to check its occurrence");
-        int check = sc.nextInt(); // Taking the digit whose occurrence needs to be checked
-
-        // Loop to count the occurrences of the digit in the number
-        while (n > 0) {
-            rem = n % 10; // Getting the last digit of the number
-            if (rem == check) {
-                count++; // Incrementing the count if the digit matches
+        int n = sc.nextInt();
+        System.out.println("Enter the value to check its occurance");
+        int check=sc.nextInt();
+        while ( n>0)
+        {
+            rem = n%10;
+            if (rem == check)
+            {
+                count ++;
             }
-            n = n / 10; // Removing the last digit from the number
+            n=n/10;
         }
-        // Printing the result
-        System.out.println("Number of times " + check + " occurred is " + count);
+        System.out.println("No of time "+check+" occured is "+count);
     }
 }
