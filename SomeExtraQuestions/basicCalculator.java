@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class BasicCalculator {
+class basicCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // Create a Scanner object for user input
         while (true) { // Infinite loop to keep the calculator running
