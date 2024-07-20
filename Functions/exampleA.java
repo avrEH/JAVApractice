@@ -1,7 +1,7 @@
-package Functions;
+
 import java.util.Scanner;  // Import the Scanner class for user input
 
-class example1 {
+class exampleA {
 
     public static void main(String[] args) {
         // Main function - program execution starts here
