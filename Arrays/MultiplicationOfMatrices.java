@@ -1,5 +1,6 @@
+package Arrays;
 import java.util.*;
-class question2 {
+class MultiplicationOfMatrices {
     public static void main(String[] args){
         Scanner sc =new Scanner(System.in);
         System.out.println("Give no of row ");
