@@ -21,7 +21,7 @@ public class linearsearch {
 
         }}
         if (counter>0){
-            System.out.println();
+            System.out.println("Element found " + counter + " times.");
         }
         else {
             System.out.println("No element found");
