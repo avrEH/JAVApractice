@@ -37,4 +37,25 @@ public class linearSearch { // Class name should start with a capital letter as 
             System.out.println("No element found."); // If not found, print a message
         }
     }
+<<<<<<< HEAD
+=======
+    System.out.println("Enter element you need to search");
+    int search=sc.nextInt();
+    int counter=0;
+    for (int i =0;i<arr.length;i++){
+        if (arr[i]==search){
+            System.out.println("Element found  At Index "+i);
+            counter++;
+
+        }}
+        if (counter>0){
+            System.out.println("Element found " + counter + " times.");
+        }
+        else {
+            System.out.println("No element found");
+        }
+
+ }
+    
+>>>>>>> 6524f25768fd672ae37c091769489651dd75b1df
 }
