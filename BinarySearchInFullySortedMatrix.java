@@ -1,7 +1,8 @@
-import java.util.*;
-// this matrix must be sorted in row and column wise
+import java.util.Arrays;
+import java.util.Scanner;
 
-public class BinarySearchIn2D {
+public class BinarySearchInFullySortedMatrix {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Give number of rows: ");
@@ -26,26 +27,9 @@ public class BinarySearchIn2D {
         } else {
             System.out.println("Element not found.");
         }
-    }
-    static int[] Search (int arr[][],int target){
-        int r=0;
-        int c= arr.length-1;// we intialize the column value to search from the top-right corner of the matrix 
-        while(r<arr.length && c>=0 ){
-            if (arr[r][c]==target){
-                return new int[]{r,c};
-            }
-            if (arr[r][c]<target){
-                r++;
-            }
-            else{
-                c--;
-            }
-            }
-            return null;
-        }
-
-    }
         
-    
+    }
+    static int [] Search(int arr[],int target){
+        
 
-    
+}}
