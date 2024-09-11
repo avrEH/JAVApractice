@@ -15,9 +15,10 @@ public class cyclesort {
             arr[i]=sc.nextInt();
         }
         int i =0;
-        while(i<arr.length){
+        while(i<arr.length){//5 4 3 2 1
             int correct=arr[i]-1;
-            if(arr[i]!=arr[correct]){
+            if(arr[i]!=arr[correct])// if 5 is not eqaual to 1(which is at index 4 where 5 should be) 
+            {
                 swap(arr, i, correct);
             }
             else{
